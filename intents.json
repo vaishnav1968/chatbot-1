@@ -1,0 +1,268 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "Is anyone there?", "Can you help me?"],
+      "responses": [
+        "Hello! I'm EDUNEX, your Campus Assistant 🤖. How can I help you today?",
+        "Hi there! Welcome to Shree Devi Institute of Technology. What information are you looking for?",
+        "Greetings! I can answer all your college-related queries — admissions, placements, or facilities."
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Thanks, bye"],
+      "responses": [
+        "Goodbye! Feel free to return anytime for more information.",
+        "See you later 👋 and best wishes from SDIT TECH-BOT!",
+        "Bye! Have a great day ahead!"
+      ]
+    },
+
+    {
+      "tag": "college_info",
+      "patterns": ["Tell me about SDIT", "Where is SDIT located", "What is SDIT", "College details"],
+      "responses": [
+        "📍 **Shree Devi Institute of Technology (SDIT)** is located at *Kenjar, Near Mangalore International Airport, Karnataka – 574142*. It is affiliated with *Visvesvaraya Technological University (VTU), Belagavi* and approved by *AICTE, New Delhi*."
+      ]
+    },
+    {
+      "tag": "sister_institutions",
+      "patterns": [
+        "What are the other colleges under Shree Devi Trust?",
+        "List of sister institutions",
+        "Other Shree Devi colleges"
+      ],
+      "responses": [
+        "The institutions under the Shree Devi Education Trust include: **Shree Devi College of Nursing**, **Shree Devi College of Physiotherapy**, **Shree Devi College of Paramedical Sciences**, **Shree Devi College of Fashion Design**, and **Shree Devi College of Hotel Management** (in addition to SDIT)."
+      ]
+    },
+    {
+      "tag": "trust_chairman",
+      "patterns": [
+        "Who is the chairman of Shree Devi Education Trust?",
+        "Who runs the college trust?",
+        "Chairman's name",
+        "Founder"
+      ],
+      "responses": [
+        "The Chairman of the Shree Devi Education Trust is **Mr A. Sadananda Shetty**."
+      ]
+    },
+    {
+      "tag": "vice_chairman",
+      "patterns": [
+        "Who is the vice chairman of Shree Devi Education Trust?",
+        "Who runs the college trust?",
+        "Vice Chairman's name"
+      ],
+      "responses": [
+        "The Chairman of the Shree Devi Education Trust is **Mr. Nidhish S. Shetty**."
+      ]
+    },
+    {
+      "tag":"principal",
+      "patterns":["Who is the principal","principal","vice"],
+      "responses":["🎓 The Principal & Director is **Dr. K E Prakash** and the Vice-Principal is **Dr. Nethravathi P S**. SDIT focuses on academic excellence with strong human values."
+      ]
+    },
+
+    
+    {
+      "tag": "vision_mission",
+      "patterns": [
+        "What is the college vision?",
+        "Tell me about the mission of SDIT.",
+        "What are the core goals of the college?"
+      ],
+      "responses": [
+        "**Vision:** To be an institution of academic excellence imparting technical and management education integrated with human values to face the social and environmental challenges.",
+        "**Mission:** Disseminate quality education with student centric-learning methodologies, and mentor students to emerge as professionals by inculcating entrepreneurial attitudes with social and ethical values."
+      ]
+    },
+
+    {
+      "tag": "accreditation",
+      "patterns": ["Is SDIT NAAC accredited", "Affiliated university", "Is college AICTE approved"],
+      "responses": [
+        "✅ SDIT is **NAAC Accredited**, **AICTE approved**, and **affiliated to VTU Belagavi**."
+      ]
+    },
+
+    {
+      "tag": "admissions",
+      "patterns": ["Admission process", "Eligibility for B.Tech", "Admission contact", "How to apply", "CET code", "Management quota"],
+      "responses": [
+        "🎯 **B.E./B.Tech Admissions:** based on *KCET* or *COMED-K UGET* rank. Eligibility – 10+2 with Physics & Mathematics + Chemistry/Computer Science/Biology and minimum 45% aggregate (40% for reserved). CET Code: **E178**.",
+        "📩 For *MCA/MBA*, admission is through *PGCET/KMAT/GATE* with minimum 50% aggregate (45% for SC/ST).",
+        "📝 Application forms are available at the campus or online at [https://sdit.ac.in/admissions](https://sdit.ac.in/admissions).",
+        "☎️ Admission Helpline: **+91 824 225 4139**, Email: info@sdit.ac.in."
+      ]
+    },
+    {
+      "tag": "results_info",
+      "patterns": [
+        "When are the VTU results out?",
+        "Where can I check my marks?",
+        "Link for VTU results",
+        "Academic calendar or exam timetable",
+        "VTU examination information"
+      ],
+      "responses": [
+        "For official VTU results, academic calendar, and examination schedules, please check the VTU results portal here: **https://results.vtu.ac.in/**"
+      ]
+    },
+    {
+      "tag": "academic_schedule",
+      "patterns": [
+        "When does the semester start?",
+        "What is the academic calendar?",
+        "When is the last day of classes?",
+        "When do theory exams usually start?",
+        "Semester schedule"
+      ],
+      "responses": [
+        "The typical VTU academic schedule is:,**Odd Semesters (I, III, V, VII):** Classes start **mid-September** and typically end **mid-December**. Theory exams run from **mid-December into January**.**Even Semesters (II, IV, VI, VIII):** Classes start **mid-January** and typically end **late-March/end-March**. Theory exams are scheduled in **June/July**."
+      ]
+    },
+
+    {
+      "tag": "fees_scholarship",
+      "patterns": ["Fee structure", "Tuition fees", "Scholarship", "Hostel fee"],
+      "responses": [
+        "💰 The *first-year B.E. fee* is around ₹90 000 – ₹1.35 lakh (approx., as per VTU norms). Hostel fee is about ₹90 000 – ₹1 lakh per year including food.",
+        "🎓 Scholarships are available based on *merit, government schemes, and minority categories*. Please check with the SDIT Scholarship Cell for forms and deadlines."
+      ]
+    },
+    {
+      "tag": "study_materials",
+      "patterns": [
+        "Where can I find notes?",
+        "Do you have the syllabus link?",
+        "I need VTU question papers",
+        "Give me study material links",
+        "Where are the subject notes?"
+      ],
+      "responses": [
+        "For VTU syllabus, study notes, and question papers, please refer to the university-affiliated resource: **https://vtucircle.com/**"
+      ]
+    },
+
+    {
+      "tag": "programs",
+      "patterns": ["Courses offered", "Departments", "Engineering branches", "Postgraduate courses"],
+      "responses": [
+        "📘 **Undergraduate (B.E.) Programs:** Computer Science & Engineering,Aeronautics engineering, Electronics & Communication Engineering, Mechanical Engineering, Civil Engineering, AI & machine learning and AI & Data Science.",
+        "🎓 **Postgraduate Programs:** Master of Business Administration (MBA), Master of Computer Applications (MCA)."
+      ]
+    },
+    {
+      "tag": "document_requirements",
+      "patterns": [
+        "What documents are needed for admission?",
+        "List of required documents for B.E.",
+        "What certificates should I submit?",
+        "Documents required for counseling",
+        "Documents"
+      ],
+      "responses": [
+        "For admission, you typically need to submit the **Original SSLC and PUC Certificates**, **Original Transfer Certificate (TC) and Conduct Certificate**, **Photocopy of Aadhar Card**, and **Passport Size Photos**. Non-Karnataka students also need a **Migration Certificate**."
+      ]
+    },
+    {
+      "tag": "hod_info",
+      "patterns": [
+        "Who is the HOD for CSE?",
+        "HOD name for Mechanical Engineering",
+        "Who heads the ECE department?",
+        "Faculty in charge of Civil Engineering",
+        "List the HODs for CSE and ISE",
+        "Who is the head of AIML and AIDS?",
+        "HOD for Aeronautics"
+      ],
+      "responses": [
+        "The Heads of Department are: **CSE & ISE**: Mrs. Nisha Clive Cutinho; **AIML & AIDS**: Mrs. Nishmitha M.R.; **Civil Engineering**: Mrs. Rashma Jain; **Mechanical Engineering**: Mr. Sudheer; **Aeronautics**: Mr. Sunil; **ECE**: Ms. Chithra Prabhu."
+      ]
+    },
+
+    {
+      "tag": "placements",
+      "patterns": ["Placement details", "Placement statistics", "Highest package", "Average salary", "Placement training","placements"],
+      "responses": [
+        "📈 In 2023, over **318 students were placed**. The **highest package** was ₹ 5.06 LPA and the average was ₹ 3.12 LPA.",
+        "💼 The *Training & Placement Cell* offers resume, aptitude, and interview preparation programs to ensure students are industry-ready."
+      ]
+    },
+
+    {
+      "tag": "recruiters",
+      "patterns": ["Top recruiters", "Which companies visit", "Placement companies"],
+      "responses": [
+        "🏢 Major recruiters: **TCS, Infosys, Wipro, Cognizant, Tech Mahindra, IBM, Mphasis, HCL, L&T** and many others."
+      ]
+    },
+
+    {
+      "tag": "facilities",
+      "patterns": [
+        "Tell me about the campus facilities.",
+        "What sports facilities are available?",
+        "Do you have transport services?",
+        "What are the library resources?",
+        "Where are the labs located?"
+      ],
+      "responses": [
+        "Campus facilities include a library, hostels, transportation, gymnasium, and an auditorium. **The Chemistry and Physics Labs are located in the Administration Block**.",
+        "The library holds over **16,918 books** and subscribes to **76 National and 76 International Journals**.",
+        "Transport includes a fleet of approximately **18 buses** covering various Mangalore routes."
+      ]
+    },
+
+    {
+      "tag": "hostel",
+      "patterns": ["Do you have hostel", "Girls hostel", "Hostel facilities", "Accommodation"],
+      "responses": [
+        "🏠 Yes, SDIT provides separate, secure hostels for **boys and girls**, each with 24×7 security, Wi-Fi, and hygienic food.",
+        "💤 Rooms are well-furnished with attached washrooms; wardens are available for student support."
+      ]
+    },
+
+    {
+      "tag": "events",
+      "patterns": ["College fest", "Cultural events", "Workshops", "Clubs", "Associations", "IEEE branch"],
+      "responses": [
+        "🎉 The annual tech-cultural fest is **SHREE DEVI SAMBHRAM**, featuring competitions, workshops, and concerts.",
+        "💡 Active student clubs include **IEEE Student Branch (SDIT-IC202220039)**, Coding Club, Eco Club, Cultural Club & Sports Committee.",
+        "🧠 Regular **seminars, hackathons, and FDPs** are conducted in collaboration with industries."
+      ]
+    },
+
+    {
+      "tag": "achievements",
+      "patterns": ["Rank holders", "Awards", "Achievements"],
+      "responses": [
+        "🏅 VTU Rank Holders: *Prajwal Rao (CSE – Rank 3)*, *Anusha Nayak (ECE – Rank 8)*, *Sharath Kumar (Mech – Rank 10)*.",
+        "🏆 SDIT has received recognition for innovation, entrepreneurship, and student projects at VTU-level competitions."
+      ]
+    },
+
+    {
+      "tag": "contact",
+      "patterns": ["Contact", "Email", "Phone number", "Reach SDIT", "Address"],
+      "responses": [
+        "📞 **Phone:** +91 824 225 4139  ✉️ **Email:** info@sdit.ac.in",
+        "📍 **Address:** Shree Devi Institute of Technology, Kenjar, Near Mangalore International Airport, Mangalore – 574142"
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it"],
+      "responses": [
+        "You're welcome! 😊 Anything else you’d like to know about SDIT?",
+        "Glad I could help — feel free to ask about admissions, placements, or campus life."
+      ]
+    }
+  ]
+}
